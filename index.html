@@ -5,51 +5,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
-    <script src="https://kit.fontawesome.com/2cdc757f2f.js" crossorigin="anonymous"></script>
-    <title>HORRORFLIX</title>
+    <!--responsive css-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+    <title>HorrorFlix</title>
 </head>
 
 <body>
     <header>
         <div class="container">
             <h2 class="logo">HORRORFLIX</h2>
-            <nav class="categorias">
-                <a href="#">Início</a>
-                <a href="#">Filmes</a>
-                <a href="#">Séries</a>
-                <a href="#">Documentários</a>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="movies.html">Filmes</a>
+                <a href="tvshows.html">Séries</a>
+                <a href="animes.html">Animes</a>
             </nav>
-
-            <nav class="icones">
-                <img src="./img/redsearchicon.png" alt="search-icon">
-                <img src="./img/gift-box.png" alt="gift-box">
-                <img src="./img/notification-icon.png" alt="notification-icon">
-                <img src="./img/membericon.png" alt="member-icon">
-            </nav>
-
         </div>
     </header>
 
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">HALLOWEEN - A NOITE DO TERROR (1978)</h3>
-                <p class="descricao">Na noite de Halloween de 1963, Michael Myers, de seis anos, assassina brutalmente sua irmã. Preso em uma instituição para doentes mentais sob os cuidados do dr. Sam Loomis, Michael cresce apenas para odiar. Em outubro de 1978, ele foge do hospital, seguido pelo dr. Loomis, que sabe que Michael vai matar novamente. O psicopata passa a perseguir a adolescente Laurie Strode e seus amigos, e prepara seu ataque mortal para a noite de Halloween.</p>
+                <h3 class="titulo">Pânico (1996)</h3>
+                <p class="descricao">Sidney Prescott (Neve Campbell) começa a desconfiar que a morte de dois estudantes está relacionada com o falecimento da sua mãe, há cerca de um ano. Enquanto isso, os jovens da pacata cidadezinha começam a receber ligações de um maníaco que faz perguntas sobre filmes de horror. Quem erra, morre. As perguntas seguem uma lógica que será desvendada numa grande festa escolar.</p>
     
                 <div class="botoes">
-                <button role="button" class="botao">
+                <button onclick="newtab('https://www.youtube.com/watch?v=23jmjs-rMGI')" role="button" class="botao">
                     <i class="fas fa-play-circle"></i>
-                    ASSISTIR
+                    Assistir
                 </button>
-                <button role="button" class="botao">
+                <button onclick="newtab('https://letterboxd.com/film/scream/')" role="button" class="botao">
                     <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
+                    Mais informações
                 </button>
                 </div>
             </div>
+        </div>
+
+    </main>
+
+    <!--carousel movies-->
+    <div>
+        <a class="categorias">Filmes</a>
+    </div>
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=YuO26oJQLVs" add target="_blank"><img class="movie-box" src="img/movies/mini1.jpg" alt="Carrie movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=CMbI7DmLCNI" add target="_blank"><img class="movie-box" src="img/movies/mini2.jpg" alt="The Shining movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=dBSbmNNm84Y" add target="_blank"><img class="movie-box" src="img/movies/mini3.jpg" alt="Rosemary's baby movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=dCVh4lBfW-c" add target="_blank"><img class="movie-box" src="img/movies/mini4.jpg" alt="Nightmare on Elm Street movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=1IpGyf-RCaQ" add target="_blank"><img class="movie-box" src="img/movies/mini5.jpg" alt="Scream 2 movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Xqqej9T2gqI" add target="_blank"><img class="movie-box" src="img/movies/mini6.jpg" alt="Friday night 13th movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=m5JO8wtNnzQ" add target="_blank"><img class="movie-box" src="img/movies/mini7.jpg" alt="IT movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=YDGw1MTEe9k" add target="_blank"><img class="movie-box" src="img/movies/mini8.jpg" alt="The Exorcist movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Wz719b9QUqY" add target="_blank"><img class="movie-box" src="img/movies/mini9.jpg" alt="Psycho movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=5Y0EEqtWrJI" add target="_blank"><img class="movie-box" src="img/movies/mini10.jpg" alt="Suspiria movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=sjiyV8mtXiU" add target="_blank"><img class="movie-box" src="img/movies/mini11.jpg" alt="Chucky movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Z-V3X963DRI" add target="_blank"><img class="movie-box" src="img/movies/mini12.jpg" alt="The fly movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=8mOn4h0lgKQ" add target="_blank"><img class="movie-box" src="img/movies/mini13.jpg" alt="Hellraiser movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=uDpFpzbwfiw" add target="_blank"><img class="movie-box" src="img/movies/mini14.jpg" alt="Possession movie" srcset=""></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=NL6mioAlpJk" add target="_blank"><img class="movie-box" src="img/movies/mini15.jpg" alt="The Evil Dead movie" srcset=""></a>
+            </div>
 
         </div>
-    </main>
-    
+
+        <div>
+            <a class="categorias">Séries</a>
+        </div>
+        <div class="carousel-movies">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=Zwn9ou_nf-I" add target="_blank"><img class="movie-box" src="img/tv shows/show1.jpg" alt="Twin Peaks" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=KKziOmsJxzE" add target="_blank"><img class="movie-box" src="img/tv shows/show2.jpg" alt="X-Files" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=pDTzn8y-5kM" add target="_blank"><img class="movie-box" src="img/tv shows/show3.jpg" alt="Hannibal" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=YQeUmSD1c3g" add target="_blank"><img class="movie-box" src="img/tv shows/show4.jpg" alt="Dexter" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=qqzgSjZQlLo" add target="_blank"><img class="movie-box" src="img/tv shows/show5.jpg" alt="Scream" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=-9KZr2Vn7CQ" add target="_blank"><img class="movie-box" src="img/tv shows/show6.jpg" alt="American Horror Story" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=7lCWKKNGiKs" add target="_blank"><img class="movie-box" src="img/tv shows/show7.jpg" alt="Bates Motel" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=UlpjxJy3Djs" add target="_blank"><img class="movie-box" src="img/tv shows/show8.jpg" alt="Exorcist" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=5oEyZz4mfcA" add target="_blank"><img class="movie-box" src="img/tv shows/show9.jpg" alt="Slasher" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=3eqxXqJDmcY" add target="_blank"><img class="movie-box" src="img/tv shows/show10.jpg" alt="A maldição da Residência Hill" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=sPoTMwOftuA" add target="_blank"><img class="movie-box" src="img/tv shows/show11.jpg" alt="Haunted" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=t-775JyzDTk" add target="_blank"><img class="movie-box" src="img/tv shows/show12.jpg" alt="Supernatural" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=-Yq3jeOmxSk" add target="_blank"><img class="movie-box" src="img/tv shows/show13.jpg" alt="Ash vs Evil Dead" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=RiN8Edb4X2w" add target="_blank"><img class="movie-box" src="img/tv shows/show14.jpg" alt="The Strain" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=YFXHfEqMcis" add target="_blank"><img class="movie-box" src="img/tv shows/show15.jpg" alt="Penny Dreadful" srcset=""></a>
+                </div>    
+            </div>
+
+            <div>
+                <a class="categorias">Animes</a>
+            </div>
+            <div class="carousel-movies">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=rj63TDpaBWk" add target="_blank"><img class="movie-box" src="img/Animes/anime1.jpg" alt="Parasyte" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=_U_57mzfjB4" add target="_blank"><img class="movie-box" src="img/Animes/anime2.jpg" alt="Another" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=UqpRUvLoUuM" add target="_blank"> <img class="movie-box" src="img/Animes/anime3.jpg" alt="Blood-C" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=CIlfodb0YoM" add target="_blank"><img class="movie-box" src="img/Animes/anime4.jpg" alt="Junji Ito Collection" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=weMxaz2KqHk" add target="_blank"><img class="movie-box" src="img/Animes/anime5.jpg" alt="Corpse Party" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=cJz1YsnIwaw" add target="_blank"><img class="movie-box" src="img/Animes/anime6.jpg" alt="Elfen Lied" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=Zo5wuctIMWk" add target="_blank"><img class="movie-box" src="img/Animes/anime7.jpg" alt="Hell Girl" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=xL-xBUx6Qzs" add target="_blank"><img class="movie-box" src="img/Animes/anime8.jpg" alt="Shiki" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=ETHpMMV8rJU" add target="_blank"><img class="movie-box" src="img/Animes/anime9.jpg" alt="Tokyo Ghoul" srcset=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=NlJZ-YgAt-c" add target="_blank"><img class="movie-box" src="img/Animes/anime10.jpg" alt="Death Note" srcset=""></a>
+                    </div>
+        
+                </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2cdc757f2f.js" crossorigin="anonymous"></script>
+    <!--owl javascript-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
