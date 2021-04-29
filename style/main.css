@@ -20,6 +20,7 @@ body {
 header .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -47,7 +48,7 @@ header nav a:hover{
 /* PRINCIPLE MOVIE */
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0.10), rgba(0,0,0,.10)50%), url(/img/capa-house4.jpg);
+    background: linear-gradient(rgba(0,0,0.10), rgba(0,0,0,.10)50%), url(../img/capa-house4.jpg);
     height: 400px;
     background-size: cover;
     margin-bottom: 0.3%;

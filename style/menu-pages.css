@@ -17,6 +17,34 @@ body {
     color: white;
 }
 
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin-left: 2%;
+}
+
+header .logo {
+    margin-right: 3%;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 27px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
